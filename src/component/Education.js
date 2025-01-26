@@ -9,7 +9,7 @@ const Details = ({type, time, place, info}) => {
     return (
         
         <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]'>
-        <LiIcon reference={ref} offset={["start end","center 80%"]}/>
+        <LiIcon reference={ref} offset={["start", "end"]}/>
         <motion.div
         initial={{y:50}}
         whileInView={{y:0}}
