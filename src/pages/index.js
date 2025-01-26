@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>David Huynh | Home Page</title>
+        <title>David Huynh | Home</title>
         <meta name="description" content="DavidHuynh's Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
