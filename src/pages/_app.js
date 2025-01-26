@@ -1,3 +1,4 @@
+import BackToTop from '@/component/BackToTop';
 import Footer from '@/component/Footer';
 import NavBar from '@/component/NavBar';
 import '@/styles/globals.css'
@@ -23,6 +24,7 @@ export default function App({ Component, pageProps }) {
         <NavBar/>
         <AnimatePresence mode = "wait">
           <Component key={router.asPath} {...pageProps} />
+          <BackToTop/>
         </AnimatePresence>
       </main>
       <Footer/>
