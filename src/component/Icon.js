@@ -490,3 +490,20 @@ export const LinkArrow = ({ className, ...rest }) => (
   </svg>
 );
 
+export const UpArrow = ({ className, ...rest }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={30}
+    height={30}
+    viewBox="0 0 24 24"
+    className={`w-full h-auto ${className}`}
+    {...rest}
+  >
+    <path 
+    fill="currentColor"
+    stroke="currentColor"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    d="M6 4h12v2H6zm.707 11.707L11 11.414V20h2v-8.586l4.293 4.293 1.414-1.414L12 7.586l-6.707 6.707z" />
+  </svg>
+);
