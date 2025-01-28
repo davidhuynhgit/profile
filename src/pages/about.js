@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Layout from '@/component/Layout'
 import AnimatedText from '@/component/AnimatedText'
 import Image from 'next/image'
-import profilePic from "../../public/images/profile/developer-pic-2.jpg"
+import profilePic from "../../public/images/profile/BR_Photo.png"
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Skills from '@/component/Skills'
 import Experience from '@/component/Experience'
@@ -78,7 +78,7 @@ const about = () => {
               <Image
                 src={profilePic}
                 alt="David"
-                className="relative w-full h-auto rounded-2xl z-1"
+                className="relative w-full h-auto rounded-2xl z-1 bg-circularLight"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />

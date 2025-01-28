@@ -54,25 +54,25 @@ const Education = () => {
             
             <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
             <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-Intelligence."
+            type="Master Of Information Techonology - Data Science"
+            time="2023-2024"
+            place="Queensland University of Technology (QUT)"
+            info="Achieved High Distinction GPA and received the QUT Executive Dean's Commendation for Academic Excellence. 
+            Relevant courses included Artificial Intelligence, Machine Learning, Data Mining, and Analytics. Completed capstone projects focused on predictive modeling with real-world datasets."
             />
             <Details
-            type="Master Of Computer Science"
-            time="2020-2022"
-            place="Stanford University"
-            info="Completed a master's project on deep learning, developing a new neural network architecture for natural 
-language understanding."
+            type="Master of Engineering - Control Engineering & Automation"
+            time="2018-2021"
+            place="Ho Chi Minh City University of Technology"
+            info="Specialized in advanced control engineering with a focus on parameter estimation and adaptive control for underwater robots.
+            Developed expertise in advanced control methodologies, including optimal, robust, and nonlinear control, alongside system identification techniques."
             />
             <Details
-            type="Online Coursework"
-            time="2016-2020"
-            place="Coursera And EdX"
-            info="Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine 
-Learning Engineering."
+            type="Bachelor of Engineering - Control Engineering & Automation (Honor)"
+            time="2014-2018"
+            place="Ho Chi Minh City University of Technology"
+            info="Studied fundamentals of electronics and electrical engineering, with a specialization in industrial automation and control engineering. 
+            Developed a strong foundation in designing and implementing automated systems for industrial applications."
             />
             </ul>
         </div>
