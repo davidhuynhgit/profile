@@ -18,7 +18,6 @@ export default function Home() {
         <title>David Huynh | Home</title>
         <meta name="description" content="DavidHuynh's Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <TransitionEffect/>
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light'>
