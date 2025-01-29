@@ -47,6 +47,8 @@ module.exports = {
     
         circularDarkSm:
             "repeating-radial-gradient(rgba(255,255,255,0.5) 2px,#1b1b1b 4px,#1b1b1b 40px)",
+        radial:
+            "radial-gradient(#0000, rgba(0,0,0,0.5))",
       }
     },
     screens:{
