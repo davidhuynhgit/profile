@@ -134,7 +134,7 @@ const NavBar = () => {
              </nav>
  
  
-             <nav className='flex items-center justify-center flex-wrap mt-2'>
+             <nav className='flex items-center justify-center flex-wrap mt-8'>
                  <motion.a href="https://github.com/davidhuynhgit" target={"_blank"}
                  whileHover={{y:-2}}
                  whileTap={{scale:0.9}}
