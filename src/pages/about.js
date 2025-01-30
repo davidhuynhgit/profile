@@ -42,34 +42,35 @@ const about = () => {
       <TransitionEffect/>
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="py-16">
-          <AnimatedText text="Passion Fuels Purpose!" className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
+          <AnimatedText text="Driven by Curiosity, Committed to Excellence." className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I&apos;m CodeBucks, a web developer and UI/UX designer with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. With 4 years of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                clients&apos; visions to life.
+                Hi, I&apos;m David, a data scientist with a passion for transforming 
+                data into actionable insights and innovative solutions.
+                I transitioned into the data science field, where I specialize in data analysis, 
+                machine learning, and predictive modeling. I am committed to solving complex problems 
+                and turning data into valuable insights that drive smarter decision-making.
               </p>
               <p className="my-4 font-medium">
-                I believe that design is about more than just making things look
-                pretty – it&apos;s about solving problems and creating intuitive,
-                enjoyable experiences for users.
+              I believe data is more than just numbers. It is about uncovering insights, 
+              predicting trends, and enabling smarter, data-driven decisions through effective visualization
               </p>
               <p className="font-medium">
-                Whether I&apos;m working on a website, mobile app, or other digital
-                product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+              Whether it&apos;s analyzing large datasets, building predictive models, or automating processes, 
+              I bring precision, creativity, and a commitment to excellence to every project. 
+              I&apos;m eager to apply my skills to tackle your next data-driven opportunity.
               </p>
             </div>
 
-            <div className="col-span-3 relative h-max p-8 z-0  xl:col-span-4 md:order-1 md:col-span-8">
+            <div className="col-span-3 relative h-max p-8 z-0  
+            xl:col-span-4 
+            md:order-1 md:col-start-3 md:col-end-7  
+            sm:col-start-2 sm:col-end-8 
+            xs:col-span-8">
               <div className="absolute top-2 left-2 -z-1 w-[102%] h-[103%] rounded-2xl bg-dark dark:bg-stone-500" />
               <div
                 className="absolute top-0 left-0 w-full h-full rounded-2xl border-2 border-solid border-dark

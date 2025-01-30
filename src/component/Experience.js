@@ -41,8 +41,8 @@ const Experience = () => {
   return (
 
     <div className='my-16'>
-        <h2 className='font-bold text-8xl mb-32 w-full text-center
-        md:text-6xl xs:text-4xl md:mb-16'>
+        <h2 className='font-bold text-8xl mb-16 w-full text-center
+        md:text-6xl xs:text-4xl md:mb-8'>
             Experience</h2>
 
         <div ref={ref} className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
@@ -54,33 +54,31 @@ const Experience = () => {
             
             <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
             <Details
-            position="Software Engineer"
-            company="Google"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-    search engine, including improving the accuracy and relevance of search results and 
-    developing new tools for data analysis and visualization."
-    />
+                    position="Assistant Technology Support Officer"
+                    company="Queensland University of Technology (QUT)"
+                    time="2024"
+                    address="88 Musk Avenue, Kelvin Grove Qld 4059"
+                    work="Worked on a team responsible for integrating desktop computing with research instrumentation, 
+                    deploying and supporting software and hardware in specialized labs, 
+                    and troubleshooting issues across the campus."
+            />
 
-        <Details
-                position="Software Engineer"
-                company="Google"
-                time="2022-Present"
-                address="Mountain View, CA"
-                work="Worked on a team responsible for developing new features for Google's 
-        search engine, including improving the accuracy and relevance of search results and 
-        developing new tools for data analysis and visualization."
-        />
-        <Details
-                position="Software Engineer"
-                company="Google"
-                time="2022-Present"
-                address="Mountain View, CA"
-                work="Worked on a team responsible for developing new features for Google's 
-        search engine, including improving the accuracy and relevance of search results and 
-        developing new tools for data analysis and visualization."
-        />
+            <Details
+                    position="Automation Engineer"
+                    company="SISTECH Co., Ltd"
+                    time="2020-2023"
+                    address="55/14 Le Thi Hong Gam, Nguyen Thai Binh Ward, District 1, HCMC, Vietnam"
+                    work="contributed to several projects, including upgrading outdated systems, troubleshooting and resolving 
+                    device malfunctions, and commissioning and controlling various instruments and subsystems to enhance overall operational efficiency."
+            />
+            <Details
+                    position="Automation Engineer (Intern)"
+                    company="SISTECH Co., Ltd"
+                    time="2018"
+                    address="55/14 Le Thi Hong Gam, Nguyen Thai Binh Ward, District 1, HCMC, Vietnam"
+                    work="Led a team of interns focused on software analysis and process evaluation to 
+                    complete a project automating a manufacturing process, improving efficiency and streamlining operations."
+            />
             </ul>
 
      
