@@ -18,7 +18,7 @@ const Skill = ({name}) => {
 
 const SkillSet = ({ skills, bgColor }) => {
   return (
-    <div className="w-max flex rounded-full flex-wrap justify-center mb-8 mx-auto px-2"
+    <div className="w-fit flex rounded-3xl mx-auto flex-wrap justify-center mb-8 px-2"
       style={{ backgroundColor: bgColor }}
     >
       {skills.map((skill, index) => (

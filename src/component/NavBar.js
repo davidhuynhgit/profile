@@ -73,7 +73,7 @@ const NavBar = () => {
 
 
             <nav className='flex items-center justify-center flex-wrap'>
-                <motion.a href="" target={"_blank"}
+                <motion.a href="https://github.com/davidhuynhgit" target={"_blank"}
                 whileHover={{y:-2}}
                 whileTap={{scale:0.9}}
                 className="w-6 mr-3"
@@ -92,7 +92,7 @@ const NavBar = () => {
                 <motion.a href="https://www.facebook.com/htdatbk" target={"_blank"}
                 whileHover={{y:-2}}
                 whileTap={{scale:0.9}}
-                className="w-6 ml-3"
+                className="w-6 mx-3"
                 >
                     <FacebookIcon/>
                 </motion.a>
@@ -130,7 +130,7 @@ const NavBar = () => {
  
  
              <nav className='flex items-center justify-center flex-wrap mt-2'>
-                 <motion.a href="" target={"_blank"}
+                 <motion.a href="https://github.com/davidhuynhgit" target={"_blank"}
                  whileHover={{y:-2}}
                  whileTap={{scale:0.9}}
                  className="w-6 mr-3 bg-light dark:bg-dark rounded-full sm:mx-1"
@@ -156,7 +156,7 @@ const NavBar = () => {
  
                  <button
                  onClick={() => setMode(mode === "light"?"dark":"light")}
-                 className={`ml-3 flex items-center justify-center rounded-full p-1
+                 className={`ml-1 flex items-center justify-center rounded-full
                  ${mode === "light"?"bg-dark text-light border border-light":"bg-light text-dark border border-dark"} 
                      `}
                  >

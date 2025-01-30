@@ -1,42 +1,85 @@
-# Next.Js Website Tutorial: Create a Stunning Portfolio Website with Nextjs, Tailwind CSS and Framer-motion🌟
+## 💡 **Why This Portfolio Website?**
 
-![GitHub stars](https://img.shields.io/github/stars/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
-![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
+As a **data scientist** with a strong IT-based capacity, I wanted to create a portfolio that not only showcases my technical proficiency but also demonstrates my creative ability to craft visually appealing and user-friendly digital experiences. This website is the culmination of both my coding expertise and passion for building impactful solutions.
 
-This repository contains starter code for Portfolio website created using NextJs. <br />
+The idea behind this portfolio was to blend **modern technologies** such as **Next.js**, **Tailwind CSS**, and **Framer Motion** to create a **responsive**, **interactive**, and **visually engaging** platform that highlights my skillset, experience, and projects. A special thanks to the original template from [CodeBucks27](https://github.com/codebucks27). Here's a breakdown of the journey:
 
-For Demo and Final Code checkout following link👇: <br />
-[Nextjs Portfolio Website](https://devdreaming.com//videos/nextjs-tutorial-build-portfolio-tailwind-css-framer-motion#code-links) <br />
+---
 
-If you want to learn how to create it please follow below tutorial👇: <br />
-https://youtu.be/Yw7yWHigGKI <br />
-[![YouTube Video Views](https://img.shields.io/youtube/views/Yw7yWHigGKI?style=social)](https://youtu.be/Yw7yWHigGKI)<br />
+### 🚀 **What I Wanted to Achieve**
 
-### Images of The Portfolio Website:
+- **Showcase My Work**: The website allows me to share key projects and demonstrate how I turn data into actionable insights and develop scalable, high-performance web applications.
+- **Enhance Front-End Skills**: While my primary expertise lies in **data science**, I wanted to elevate my front-end development abilities. Using **Next.js** and **Tailwind CSS** empowered me to create responsive layouts with modern design and smooth animations with **Framer Motion**.
+- **Learn Next.js**: Building the website was an excellent opportunity to dive deep into **Next.js**. It introduced me to server-side rendering (SSR) that is integrated with **GitHub Actions**.
+- **Master Animations**: By using **Framer Motion**, I learned how to implement animations that enhanced the overall user experience without sacrificing performance.
 
-![Nextjs Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/home-light-desktop.png)
-![Nextjs Portfolio Website Dark Mode](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/home-dark-desktop.png)
-![Next.js Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/about-light-desktop.png)
-![Next js Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/projects-dark-desktop.png)
-![Portfolio Website In Next.js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/articles-light-desktop.png)
-![Responsive Portfolio Website In Nextjs](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/about-light-mobile.png)
-![Responsive Portfolio Website In Next js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/projects-light-mobile.png)
-![Mobile Responsive Portfolio Website In Next.js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/articles-light-mobile.png)
+---
 
+### 🧠 **What I’ve Learned**
 
-### Resources Used in This Project
+- **Frontend Development**: From wireframing to deployment, I gained a deeper understanding of **responsive design**, **CSS frameworks**, and **UI/UX principles**, ensuring the site adapts seamlessly to all devices.
+- **Version Control with Git**: Managing this project with Git reinforced the importance of **workflow management**—key skills in any developer’s toolkit.
+- **Personal Branding**: This project taught me how to present my work and **skills** professionally while also building my **online presence**. It’s not just about coding—it’s about **telling a story** and crafting a digital identity.
 
-- Profile image in the home page created by using https://www.midjourney.com/ tool.
-- Profile image in the about page by [Albert Dera](https://unsplash.com/@albertdera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) 
-on [Unsplash](https://unsplash.com/photos/ILip77SbmOE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
-- Fonts from https://fonts.google.com/ <br />
-- Icons from https://iconify.design/ <br />
-- LightBulb Svg from https://lukaszadam.com/illustrations <br />
+---
 
-### External Libraries used in this project:
+### 🔧 **Technologies Used**
 
-- [framer-motion](https://www.framer.com/motion/) <br />
-- [Tailwind css](https://tailwindcss.com/) <br />
+- **Next.js** for creating a fast, SEO-optimized website with **server-side rendering (SSR)**
+- **Tailwind CSS** for building responsive, clean, and customizable designs
+- **Framer Motion** for adding smooth and interactive animations
+- **Git** for version control
 
+---
+
+### 🚀 **In Conclusion**
+
+Creating this portfolio was not only a chance to showcase my work but also an invaluable learning experience that allowed me to combine my **technical skills** with **creative design**. This project will continue to evolve, serving as a testament to my commitment to lifelong learning, and passion for building solutions.
+
+---
+
+### 📋 **Quick Setup Guide**
+**1. Clone this project** to your local machine by running the following command in your console (e.g. Visual Studio Code):
+
+`git clone https://github.com/davidhuynhgit/profile.git`
+
+**2. Navigate to the Project Directory**: Change into the project directory:
+
+`cd nextjs-portfolio`
+
+**3. Connect to the Remote Repository**: If you haven't already, add the remote origin (your GitHub repository) to push changes later:
+ 
+`git remote add origin <your-GitHub-repo.git>`
+
+**4. Install Dependencies:** Install the required dependencies with npm or yarn:
+
+`npm install` or `yarn install`
+
+**5. Start the Development Server (local)**: To view the website locally, start the development server:
+
+`npm run dev`
+
+If you run into errors about the export issues, open the file `next.config.js`   comment the line `output: "export",` and uncomment it when you deploy your server online. This will help the NextJS generate a light version of outputs to host your profile.
+
+**6. Launch your profile with GitHub page**:
+
+- Go to your GitHub repository
+- Select `⚙️Settings` tab
+- On the left panel, select `Pages`
+- At `Build and deployment` > `Source`, select `GitHub Actions`
+- [If there is no Next.js option, select `browse all workflows`,] Search for `Next.js` then click on `Configure`
+- The action has done the heavy lifting for the workflow in `nextjs.yml`, so you just need to click on `Commit Changes...`
+
+**7. Track Your Changes with command lines:**
+
+After making changes to the code, stage your changes:
+`git add .`
+
+Commit Your Changes with a clear commit message:
+`git commit -v -m "<Describe the changes you made in this pair of quotes>"`
+
+Push Changes to GitHub (e.g., main/gh-page/master branch):
+`git push origin main`
+
+Go to your GitHub repository, tab `Actions` to view the underlying workflow for troubleshooting purposes.
 
