@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Logo from './Logo'
 import { useRouter } from 'next/router'
 import { FacebookIcon, GithubIcon, LinkedInIcon, MoonIcon, SunIcon } from './Icon'
@@ -46,13 +46,17 @@ const CustomMobileLink = ({href, title, className="", toggle}) =>{
 };
 
 const NavBar = () => {
-
+    const router = useRouter();
     const [mode, setMode] = useThemeSwitcher();
     const [isOpen, setIsOpen] = useState(false);
 
     const handleCick=() => {
         setIsOpen(!isOpen)
     }
+
+    useEffect(() => {
+        setIsOpen(false);
+    }, [router.asPath]); // The mobile menu will close whenever the route changes
 
   return (
     <header className='w_full px-32 py-8 font-medium flex items-center justify-between
@@ -98,8 +102,9 @@ const NavBar = () => {
                 </motion.a>
 
                 <button
-                onClick={() => setMode(mode === "light"?"dark":"light")}
-                className={`ml-3 flex items-center justify-center rounded-full p-1
+                onClick={() => setMode(mode === "light"?"dark":"light")}    
+                title={mode === "dark" ? "Switch to Light Mode" : "Switch to Dark Mode"}            
+                className={`ml-3 flex items-center justify-center rounded-full
                 ${mode === "light"?"bg-dark text-light":"bg-light text-dark"} 
                     `}
                 >
@@ -133,7 +138,7 @@ const NavBar = () => {
                  <motion.a href="https://github.com/davidhuynhgit" target={"_blank"}
                  whileHover={{y:-2}}
                  whileTap={{scale:0.9}}
-                 className="w-6 mr-3 bg-light dark:bg-dark rounded-full sm:mx-1"
+                 className="w-6 mr-3 bg-light dark:bg-dark rounded-full "
                  >
                      <GithubIcon/>
                  </motion.a>
@@ -141,7 +146,7 @@ const NavBar = () => {
                  <motion.a href="https://www.linkedin.com/in/davidhuynh-connect/" target={"_blank"}
                  whileHover={{y:-2}}
                  whileTap={{scale:0.9}}
-                 className="w-6 mx-3 sm:mx-1"
+                 className="w-6 mx-3 "
                  >
                      <LinkedInIcon/>
                  </motion.a>
@@ -149,15 +154,17 @@ const NavBar = () => {
                  <motion.a href="https://www.facebook.com/htdatbk" target={"_blank"}
                  whileHover={{y:-2}}
                  whileTap={{scale:0.9}}
-                 className="w-6 ml-3 sm:mx-1"
+                 className="w-6 ml-3 "
                  >
                      <FacebookIcon/>
                  </motion.a>
  
                  <button
                  onClick={() => setMode(mode === "light"?"dark":"light")}
-                 className={`ml-1 flex items-center justify-center rounded-full
-                 ${mode === "light"?"bg-dark text-light border border-light":"bg-light text-dark border border-dark"} 
+                 title={mode === "dark" ? "Switch to Light Mode" : "Switch to Dark Mode"}
+                 className={`w-6 ml-6  flex items-center justify-center rounded-full
+                 ${mode === "light"?"bg-dark text-light border border-light"
+                    :"bg-light text-dark border border-dark"} 
                      `}
                  >
                      {mode === "dark" ?
