@@ -5,7 +5,8 @@ import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
 import { GithubIcon } from '@/component/Icon'
-const fproject = "https://raw.githubusercontent.com/davidhuynhgit/AdvanceQLD/main/graphics/Thumbnail.png";
+const fproject = "https://github.com/davidhuynhgit/AdvanceQLD/blob/main/graphics/Thumbnail.png";
+const projectSpringfield = "https://github.com/davidhuynhgit/SpringfieldDashboard/blob/main/graphics/FinalDashboard.png";
 import {motion} from "framer-motion"
 import TransitionEffect from '@/component/TransitionEffect'
 const FramerImage = motion(Image);
@@ -122,42 +123,15 @@ const projects = () => {
                   </div>
                   <div className="col-span-6 sm:col-span-12">
                   <Project 
-                    title="Crypto Screener Application"
-                    img={project1}                            
-                    link="/"
-                    github="/"
+                    title="Springfield's Intimate Partner Violence crimes"
+                    img={projectSpringfield}                            
+                    link="https://public.tableau.com/app/profile/david.huynh2218/viz/Digital_Dashboard/Final"
+                    github="https://github.com/davidhuynhgit/SpringfieldDashboard/tree/main"
                     type="Featured Project "
                     />
                   </div>
                   
-                  <div className="col-span-6 sm:col-span-12">
-                  <Project 
-                    title="Crypto Screener Application"
-                    img={project1}                            
-                    link="/"
-                    github="/"
-                    type="Featured Project "
-                    />
-                  </div>
 
-                  <div className="col-span-6 sm:col-span-12">
-                  <Project 
-                    title="Crypto Screener Application"
-                    img={project1}                            
-                    link="/"
-                    github="/"
-                    type="Featured Project "
-                    />
-                  </div>
-                  <div className="col-span-6 sm:col-span-12">
-                  <Project 
-                    title="Crypto Screener Application"
-                    img={project1}                            
-                    link="/"
-                    github="/"
-                    type="Featured Project "
-                    />
-                  </div>
 
                 </div>
                 
