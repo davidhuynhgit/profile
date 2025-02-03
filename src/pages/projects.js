@@ -124,7 +124,7 @@ const projects = () => {
                   </div>
                   <div className="col-span-6 sm:col-span-12">
                   <Project 
-                    title="Springfield's Intimate Partner Violence crimes"
+                    title="Springfield's IPV crimes analysis"
                     img={projectSpringfield}                            
                     link="https://public.tableau.com/app/profile/david.huynh2218/viz/Digital_Dashboard/Final"
                     github="https://github.com/davidhuynhgit/SpringfieldDashboard/tree/main"
