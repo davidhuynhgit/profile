@@ -5,8 +5,8 @@ import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
 import { GithubIcon } from '@/component/Icon'
-const fproject = "https://github.com/davidhuynhgit/AdvanceQLD/blob/main/graphics/Thumbnail.png";
-const projectSpringfield = "https://github.com/davidhuynhgit/SpringfieldDashboard/blob/main/graphics/FinalDashboard.png";
+import fproject from "../../public/images/project/AvdQLD.png";
+import projectSpringfield from "../../public/images/project/FinalDashboard.png";
 import {motion} from "framer-motion"
 import TransitionEffect from '@/component/TransitionEffect'
 const FramerImage = motion(Image);
