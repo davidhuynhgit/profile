@@ -5,7 +5,7 @@ import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
 import { GithubIcon } from '@/component/Icon'
-import fproject from "https://github.com/davidhuynhgit/AdvanceQLD/blob/main/graphics/Thumbnail.png"
+const fproject = "https://raw.githubusercontent.com/davidhuynhgit/AdvanceQLD/main/graphics/Thumbnail.png";
 import {motion} from "framer-motion"
 import TransitionEffect from '@/component/TransitionEffect'
 const FramerImage = motion(Image);
