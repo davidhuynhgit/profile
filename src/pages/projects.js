@@ -7,6 +7,7 @@ import Image from 'next/image'
 import { GithubIcon } from '@/component/Icon'
 import fproject from "../../public/images/projects/AvdQLD.png";
 import projectSpringfield from "../../public/images/projects/FinalDashboard.png";
+import projectFungi from "../../public/images/projects/FungiClassification.png";
 import {motion} from "framer-motion"
 import TransitionEffect from '@/component/TransitionEffect'
 const FramerImage = motion(Image);
@@ -114,7 +115,7 @@ const projects = () => {
                     summary="A story reporting on the success of the program initiated by the Queensland's Government.
                      The results are potentially critical to the scheme, based on the publicly available data on the distribution of the funds over time. 
                      It is expected that by using JupyterNotebook/Python and Guadian API with structured and unstructured data analysis under QDAVI framework,
-                     the patterns or concerns could be revealed to provide meaningful insights."                    
+                     the patterns or concerns can offer meaningful insights."                    
                     link="https://github.com/davidhuynhgit/AdvanceQLD"
                     github="https://github.com/davidhuynhgit/AdvanceQLD"
                     type="Featured Project "
@@ -127,10 +128,19 @@ const projects = () => {
                     img={projectSpringfield}                            
                     link="https://public.tableau.com/app/profile/david.huynh2218/viz/Digital_Dashboard/Final"
                     github="https://github.com/davidhuynhgit/SpringfieldDashboard/tree/main"
-                    type="Featured Project "
+                    type="Data Analysis"
                     />
                   </div>
                   
+                  <div className="col-span-6 sm:col-span-12">
+                  <Project 
+                    title="Automated Fungi Classification"
+                    img={projectFungi}                            
+                    link="https://github.com/davidhuynhgit/FungiClassification"
+                    github="https://github.com/davidhuynhgit/FungiClassification"
+                    type="Machine Learning"
+                    />
+                  </div>
 
 
                 </div>
