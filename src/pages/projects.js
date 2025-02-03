@@ -5,7 +5,7 @@ import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
 import { GithubIcon } from '@/component/Icon'
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import fproject from "https://github.com/davidhuynhgit/AdvanceQLD/blob/main/graphics/Thumbnail.png"
 import {motion} from "framer-motion"
 import TransitionEffect from '@/component/TransitionEffect'
 const FramerImage = motion(Image);
@@ -106,14 +106,16 @@ const projects = () => {
                 className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl'/>
                 <div className="mb-16 grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
                   <div className="col-span-12">
+
                     <FeaturedProject 
-                    title="Crypto Screener Application"
-                    img={project1}
-                    summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."                    
-                    link="/"
-                    github="/"
+                    title="Advance Queensland program"
+                    img={fproject}
+                    summary="A story reporting on the success of the program initiated by the Queensland's Government.
+                     The results are potentially critical to the scheme, based on the publicly available data on the distribution of the funds over time. 
+                     It is expected that by using JupyterNotebook/Python and Guadian API with structured and unstructured data analysis under QDAVI framework,
+                     the patterns or concerns could be revealed to provide meaningful insights."                    
+                    link="https://github.com/davidhuynhgit/AdvanceQLD"
+                    github="https://github.com/davidhuynhgit/AdvanceQLD"
                     type="Featured Project "
             
                     />
@@ -127,6 +129,7 @@ local currency."
                     type="Featured Project "
                     />
                   </div>
+                  
                   <div className="col-span-6 sm:col-span-12">
                   <Project 
                     title="Crypto Screener Application"
