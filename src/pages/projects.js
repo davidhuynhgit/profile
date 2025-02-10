@@ -8,11 +8,12 @@ import { GithubIcon } from '@/component/Icon'
 import fproject from "../../public/images/projects/AvdQLD.png";
 import projectSpringfield from "../../public/images/projects/FinalDashboard.png";
 import projectFungi from "../../public/images/projects/FungiClassification.png";
+import projectBellabeat from "../../public/images/projects/BellaBeat.png";
 import {motion} from "framer-motion"
 import TransitionEffect from '@/component/TransitionEffect'
 const FramerImage = motion(Image);
 
-const FeaturedProject = ({type, title, summary, img, link, github}) => {
+const FeaturedProject = ({type, title, summary, img, link, github, hashtags}) => {
   return(
     <article className='w-full flex items-center justify-between relative
     rounded-3xl  border border-solid border-dark bg-light shadow-2xl p-12 
@@ -40,6 +41,12 @@ const FeaturedProject = ({type, title, summary, img, link, github}) => {
         </Link>
 
         <p className='my-2 font-medium text-dark dark:text-light'>{summary}</p>
+
+        <div className='font-medium text-primary dark:text-primaryDark flex flex-wrap'>
+          {hashtags.map((tag, index) => (
+            <span key={index} className='mr-2'>#{tag}</span>
+          ))}
+        </div>
         
         <div className='mt-2 flex items-center'>
         <Link href={github} target="_blank" className='w-10'><GithubIcon/></Link>  
@@ -56,7 +63,7 @@ const FeaturedProject = ({type, title, summary, img, link, github}) => {
   )
 }
 
-const Project = ({type, title, img, link, github}) => {
+const Project = ({type, title, img, link, github, hashtags}) => {
   return(
     <article className='w-full flex flex-col items-center justify-center rounded-2xl
     border border-solid border-dark bg-light p-6 relative shadow-2xl
@@ -76,15 +83,21 @@ const Project = ({type, title, img, link, github}) => {
         className='hover:underline underline-offset-2'>
         <h2 className='my-2 w-full text-left text-4xl font-bold lg:text-2xl'>{title}</h2>
         </Link>
-        
-        <div className='w-full mt-2 flex items-center justify-between'>
-        
-        <Link 
-        href={link} 
-        target="_blank"
-        className='text-lg font-semibold underline md:text-base'>
-        Visit</Link>  
-        <Link href={github} target="_blank" className='w-8 md:w-6'><GithubIcon/></Link>  
+
+        <div className='font-medium text-primary dark:text-primaryDark flex flex-wrap'>
+          {hashtags.map((tag, index) => (
+            <span key={index} className='mr-2'>#{tag}</span>
+          ))}
+        </div>
+
+        <div className='w-full mt-2 flex items-center justify-between'>        
+          <Link 
+          href={link} 
+          target="_blank"
+          className='text-lg font-semibold underline md:text-base'>
+          Visit</Link>  
+
+          <Link href={github} target="_blank" className='w-8 md:w-6'><GithubIcon/></Link>  
         </div>
         
       </div>
@@ -118,8 +131,8 @@ const projects = () => {
                      the patterns or concerns can offer meaningful insights."                    
                     link="https://github.com/davidhuynhgit/AdvanceQLD"
                     github="https://github.com/davidhuynhgit/AdvanceQLD"
-                    type="Featured Project "
-            
+                    type="Featured Project"
+                    hashtags={["Narative", "Python","API","UnstructuredData", "NMF", "LDA", "QDAVI", "Visualisation"]}           
                     />
                   </div>
                   <div className="col-span-6 sm:col-span-12">
@@ -129,6 +142,7 @@ const projects = () => {
                     link="https://public.tableau.com/app/profile/david.huynh2218/viz/Digital_Dashboard/Final"
                     github="https://github.com/davidhuynhgit/SpringfieldDashboard/tree/main"
                     type="Data Analysis"
+                    hashtags={["Tableau", "Dashboard","IterativeDesign","StoryTelling"]} 
                     />
                   </div>
                   
@@ -139,9 +153,20 @@ const projects = () => {
                     link="https://github.com/davidhuynhgit/FungiClassification"
                     github="https://github.com/davidhuynhgit/FungiClassification"
                     type="Machine Learning"
+                    hashtags={["PyTorch", "ImageClassification", "FoundationModel", "Evaluation","DeepLearning"]} 
                     />
                   </div>
 
+                  <div className="col-span-6 sm:col-span-12">
+                  <Project 
+                    title="Personal fitness tracking analysis"
+                    img={projectBellabeat}                            
+                    link="https://github.com/davidhuynhgit/BellaBeat"
+                    github="https://github.com/davidhuynhgit/BellaBeat"
+                    type="Data Analysis"
+                    hashtags={["R","PowerBI","Correlation","PatternExploration","DataMining"]} 
+                    />
+                  </div>
 
                 </div>
                 
