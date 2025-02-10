@@ -171,7 +171,7 @@ const projects = () => {
 
                   <div className="col-span-6 sm:col-span-12">
                   <Project 
-                    title="Large scale news documents classification"
+                    title="Large-scale documents classification"
                     img={projectTextClassification}                            
                     link="https://github.com/davidhuynhgit/LargeTextClassification"
                     github="https://github.com/davidhuynhgit/LargeTextClassification"
