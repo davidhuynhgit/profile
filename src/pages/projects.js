@@ -9,6 +9,7 @@ import fproject from "../../public/images/projects/AvdQLD.png";
 import projectSpringfield from "../../public/images/projects/FinalDashboard.png";
 import projectFungi from "../../public/images/projects/FungiClassification.png";
 import projectBellabeat from "../../public/images/projects/BellaBeat.png";
+import projectTextClassification from "../../public/images/projects/TextClassification.png";
 import {motion} from "framer-motion"
 import TransitionEffect from '@/component/TransitionEffect'
 const FramerImage = motion(Image);
@@ -165,6 +166,17 @@ const projects = () => {
                     github="https://github.com/davidhuynhgit/BellaBeat"
                     type="Data Analysis"
                     hashtags={["R","PowerBI","Correlation","PatternExploration","DataMining"]} 
+                    />
+                  </div>
+
+                  <div className="col-span-6 sm:col-span-12">
+                  <Project 
+                    title="Large scale news documents classification"
+                    img={projectTextClassification}                            
+                    link="https://github.com/davidhuynhgit/LargeTextClassification"
+                    github="https://github.com/davidhuynhgit/LargeTextClassification"
+                    type="Data Analysis"
+                    hashtags={["Weka","Java", "Classification","Comparison","FeatureSlection","TF-IDF"]} 
                     />
                   </div>
 
