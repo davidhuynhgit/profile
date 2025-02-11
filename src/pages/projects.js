@@ -133,7 +133,7 @@ const projects = () => {
                     link="https://github.com/davidhuynhgit/AdvanceQLD"
                     github="https://github.com/davidhuynhgit/AdvanceQLD"
                     type="Featured Project"
-                    hashtags={["Narative", "Python","API","UnstructuredData", "NMF", "LDA", "QDAVI", "Visualisation"]}           
+                    hashtags={["Narrative", "Python","API","UnstructuredData", "NMF", "LDA", "QDAVI", "DataViz"]}           
                     />
                   </div>
                   <div className="col-span-6 sm:col-span-12">
@@ -176,7 +176,7 @@ const projects = () => {
                     link="https://github.com/davidhuynhgit/LargeTextClassification"
                     github="https://github.com/davidhuynhgit/LargeTextClassification"
                     type="Data Analysis"
-                    hashtags={["Weka","Java", "Classification","Comparison","FeatureSlection","TF-IDF"]} 
+                    hashtags={["Weka","Java", "Classification","FeatureSelection","TF-IDF"]} 
                     />
                   </div>
 
