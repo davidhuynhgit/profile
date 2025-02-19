@@ -42,11 +42,10 @@ const BackToTop = () => {
             cursor: 'pointer',
           }}
         >
-        <UpArrow className="flex items-center p-2 px-4
+        <UpArrow className="flex items-center p-2 px-3
                 rounded-lg text-lg
                 dark:bg-light dark:text-dark 
-              bg-dark text-light                
-                md:p-2 md:px-3 md:text-base"/>
+              bg-dark text-light w-2 h-2"/>
         </button>
       )}
     </>
