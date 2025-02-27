@@ -10,6 +10,7 @@ import projectSpringfield from "../../public/images/projects/FinalDashboard.png"
 import projectFungi from "../../public/images/projects/FungiClassification.png";
 import projectBellabeat from "../../public/images/projects/BellaBeat.png";
 import projectTextClassification from "../../public/images/projects/TextClassification.png";
+import projectFurnitureSale from "../../public/images/projects/FurnitureSale.png";
 import {motion} from "framer-motion"
 import TransitionEffect from '@/component/TransitionEffect'
 const FramerImage = motion(Image);
@@ -177,6 +178,17 @@ const projects = () => {
                     github="https://github.com/davidhuynhgit/LargeTextClassification"
                     type="Data Analysis"
                     hashtags={["Weka","Java", "Classification","FeatureSelection","TF-IDF"]} 
+                    />
+                  </div>
+
+                  <div className="col-span-6 sm:col-span-12">
+                  <Project 
+                    title="Large-scale documents classification"
+                    img={projectFurnitureSale}                            
+                    link="https://github.com/davidhuynhgit/FunitureSale"
+                    github="https://github.com/davidhuynhgit/FunitureSale"
+                    type="Data Analysis"
+                    hashtags={["SQL","MS SQL Server", "PivotTable","Dynamic SQL", "Function", "Procedure"]} 
                     />
                   </div>
 
