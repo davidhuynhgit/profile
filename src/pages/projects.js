@@ -11,6 +11,7 @@ import projectFungi from "../../public/images/projects/FungiClassification.png";
 import projectBellabeat from "../../public/images/projects/BellaBeat.png";
 import projectTextClassification from "../../public/images/projects/TextClassification.png";
 import projectFurnitureSale from "../../public/images/projects/FurnitureSale.png";
+import projectPizzaSale from "../../public/images/projects/PizzaSale.png";
 import {motion} from "framer-motion"
 import TransitionEffect from '@/component/TransitionEffect'
 const FramerImage = motion(Image);
@@ -183,12 +184,23 @@ const projects = () => {
 
                   <div className="col-span-6 sm:col-span-12">
                   <Project 
-                    title="Large-scale documents classification"
+                    title="Furniture Sale Analysis by SQL"
                     img={projectFurnitureSale}                            
                     link="https://github.com/davidhuynhgit/FunitureSale"
                     github="https://github.com/davidhuynhgit/FunitureSale"
                     type="Data Analysis"
                     hashtags={["SQL","MS SQL Server", "PivotTable","Dynamic SQL", "Function", "Procedure"]} 
+                    />
+                  </div>
+
+                  <div className="col-span-6 sm:col-span-12">
+                  <Project 
+                    title="Pizza Sale Dashboard with PowerBI"
+                    img={projectPizzaSale}                            
+                    link="https://github.com/davidhuynhgit/PizzaSale"
+                    github="https://github.com/davidhuynhgit/PizzaSale"
+                    type="Data Analysis"
+                    hashtags={["PowerBI","DAX", "DataTransform","DataViz", "AnalyticalReport"]} 
                     />
                   </div>
 
