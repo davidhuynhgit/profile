@@ -11,22 +11,23 @@ import iTED from "../../public/images/milestones/TEDxQUT.png"
 import iLHP from "../../public/images/milestones/LHP.png"
 import iSpringer from "../../public/images/milestones/Springer.png"
 
-const Details = ({ logo, title, time, place, info }) => {
+const Details = ({ logo, title, time, place, info, link }) => {
     const ref = useRef(null);
     return (
-        <li ref={ref} className='my-6 first:mt-0 last:mb-0 w-[60%] mx-auto flex  items-start 
-        md:w-[80%]  xs:w-full z-30'>
+        <li ref={ref} className='my-6 first:mt-0 last:mb-0 
+        w-[60%] xl:w-[80%] mx-auto flex items-start 
+        xs:w-full xs:my-4 z-30'>
 
             <motion.div
                 initial={{ y: 50 }}
                 whileInView={{ y: 0 }}
                 transition={{ duration: 0.5, type: "spring" }}
-                className='flex items-start'
+                className='flex xs:block items-start'
             >
                 <Image 
                 src={logo} 
                 alt="icon" 
-                className='mr-4 w-[50px] h-[50px] bg-white 
+                className='mr-8 mb-2 w-[100px] bg-white 
                 border   border-dark dark:border-light'
                 priority
                 />
@@ -37,11 +38,20 @@ const Details = ({ logo, title, time, place, info }) => {
                     <span className='capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'>
                         {time} {place && `| ${place}`}
                     </span>
-                    <p className='font-medium w-full md:text-sm'>
+                    <p className='font-medium w-full md:text-sm break-words hyphens-auto'>
                         {info}
                     </p>
+                    {link && (
+                        <a 
+                            href={link} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className='font-medium w-full mt-1 md:text-sm underline text-primary dark:text-primaryDark'
+                        >
+                            See more...
+                        </a>
+                    )}
                 </div>
-
             </motion.div>
         </li>
     );
@@ -50,16 +60,17 @@ const Details = ({ logo, title, time, place, info }) => {
     const Milestone = () => {   
         return (
             <div className='mt-0'>
-                <div className='w-[75%] mx-auto  lg:w-[90%] md:w-full'>
-                    <ul className="w-full flex flex-col justify-between ml-4 xs:ml-2 relative">
+                <div className='w-full mx-auto'>
+                    <ul className="w-full flex flex-col justify-between xs:ml-2 relative">
 
-                        <motion.div
-                            className="absolute top-7 w-[4px]  h-[calc(100%-1.75rem)] origin-top
+                        <div
+                            className="absolute top-6 w-[4px]  h-[calc(100%-1.5rem)] origin-top
                             border-l-4 border-primary dark:border-primaryDark border-dashed 
-                            md:left-[calc(10%+25px)] xs:left-[25px]
-                            left-[calc(20%+25px)]"
+                            left-[calc(20%+50px)] 
+                            xl:left-[calc(10%+50px)]
+                            xs:-left-[20px]"
                         />
-                        
+
                         <Details
                             logo={iQUT}
                             title="Involvement in a Complex National Energy Project"
@@ -75,10 +86,8 @@ const Details = ({ logo, title, time, place, info }) => {
                             time="2021"
                             place="Hamon Vietnam"
                             info="Gained significant experience in Instrument & Control (I&C) through direct collaboration with seasoned professionals. 
-                            This exceptional opportunity allowed me to expand my knowledge base and learn from international colleagues with extensive field experience.
-                            <a href='https://www.tedxqut.com/events' target='_blank'>
-                                Check this out.
-                            </a>"                   
+                            This exceptional opportunity allowed me to expand my knowledge base and learn from international colleagues with extensive field experience."
+                            link={'https://youtu.be/hcreQBLOU6E?t=1002'}         
                         />
 
                         <Details
@@ -89,7 +98,6 @@ const Details = ({ logo, title, time, place, info }) => {
                             info="Gained significant experience in Instrument & Control (I&C) through direct collaboration with seasoned professionals. 
                             This exceptional opportunity allowed me to expand my knowledge base and learn from international colleagues with extensive field experience."                   
                         />
-
 
                         <Details
                             logo={iBANDS}
@@ -134,10 +142,8 @@ const Details = ({ logo, title, time, place, info }) => {
                             time="2019"
                             place=""
                             info="Achieved publication through a collaborative research effort, showcasing my ability to contribute to original work. 
-                            The process involved a deliberate exploration of varied methodologies, ultimately leading to a successful outcome.                            
-                            <a href='https://link.springer.com/chapter/10.1007/978-3-030-53021-1_53' target='_blank'>
-                                Check this out.
-                            </a>"                       
+                            The process involved a deliberate exploration of varied methodologies, ultimately leading to a successful outcome."
+                            link={'https://link.springer.com/chapter/10.1007/978-3-030-53021-1_53'}                        
                         />
 
                         <Details
