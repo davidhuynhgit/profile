@@ -75,7 +75,7 @@ const Details = ({ logo, title, time, place, info }) => {
                             info="Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine Learning Engineering."
                         />
                         <Details
-                            logo={iBK}
+                            logo={iSpringer}
                             title="Online Coursework"
                             time="2016-2020"
                             place="Coursera And EdX"
