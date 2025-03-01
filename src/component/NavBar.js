@@ -50,9 +50,14 @@ const NavBar = () => {
     const [mode, setMode] = useThemeSwitcher();
     const [isOpen, setIsOpen] = useState(false);
 
-    const handleCick=() => {
+    const handleClick=() => {
         setIsOpen(!isOpen)
     }
+
+    const handleCombinedClick = () => {
+        handleClick(); 
+        setMode(mode === "light" ? "dark" : "light");
+    };
 
     useEffect(() => {
         setIsOpen(false);
@@ -61,7 +66,7 @@ const NavBar = () => {
   return (
     <header className='w_full px-32 py-8 font-medium flex items-center justify-between
     dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8'>
-        <button className='flex-col justify-center items-center hidden lg:flex p-2' onClick={handleCick}>   
+        <button className='flex-col justify-center items-center hidden lg:flex p-4' onClick={handleClick}>   
             <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen? 'rotate-45 translate-y-1':'-translate-y-0.5'}`}></span>
             <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isOpen? 'opacity-0':'opacity-100'}`}></span>
             <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen? '-rotate-45 -translate-y-1':'translate-y-0.5'}`}></span>
@@ -72,6 +77,7 @@ const NavBar = () => {
                 <CustomLink href="/" title="Home" className='mr-4'/>
                 <CustomLink href="/about" title="About" className='mx-4'/>
                 <CustomLink href="/projects" title="Projects" className='ml-4'/>
+                <CustomLink href="/milestones" title="Milestones" className='ml-4'/>
 
             </nav>
 
@@ -127,10 +133,10 @@ const NavBar = () => {
          fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
          bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-16">
              <nav className='flex flex-col justify-center items-center'>
-                 <CustomMobileLink href="/" title="Home" className='' toggle={handleCick}/>
-                 <CustomMobileLink href="/about" title="About" className='' toggle={handleCick}/>
-                 <CustomMobileLink href="/projects" title="Projects" className='' toggle={handleCick}/>
- 
+                 <CustomMobileLink href="/" title="Home" className='' toggle={handleClick}/>
+                 <CustomMobileLink href="/about" title="About" className='' toggle={handleClick}/>
+                 <CustomMobileLink href="/projects" title="Projects" className='' toggle={handleClick}/>
+                 <CustomMobileLink href="/milestones" title="Milestones" className='' toggle={handleClick}/>
              </nav>
  
  
@@ -160,7 +166,7 @@ const NavBar = () => {
                  </motion.a>
  
                  <button
-                 onClick={() => setMode(mode === "light"?"dark":"light")}
+                 onClick={handleCombinedClick}
                  title={mode === "dark" ? "Switch to Light Mode" : "Switch to Dark Mode"}
                  className={`w-6 ml-6  flex items-center justify-center rounded-full
                  ${mode === "light"?"bg-dark text-light border border-light"

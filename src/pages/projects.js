@@ -138,6 +138,29 @@ const projects = () => {
                     hashtags={["Narrative", "Python","API","UnstructuredData", "NMF", "LDA", "QDAVI", "DataViz"]}           
                     />
                   </div>
+
+                  <div className="col-span-6 sm:col-span-12">
+                  <Project 
+                    title="Furniture Sale Analysis by SQL"
+                    img={projectFurnitureSale}                            
+                    link="https://github.com/davidhuynhgit/FunitureSale"
+                    github="https://github.com/davidhuynhgit/FunitureSale"
+                    type="Data Analysis"
+                    hashtags={["SQL","MS SQL Server", "PivotTable","Dynamic SQL", "Function", "Procedure"]} 
+                    />
+                  </div>
+
+                  <div className="col-span-6 sm:col-span-12">
+                  <Project 
+                    title="Pizza Sale Dashboard with PowerBI"
+                    img={projectPizzaSale}                            
+                    link="https://github.com/davidhuynhgit/PizzaSale"
+                    github="https://github.com/davidhuynhgit/PizzaSale"
+                    type="Data Analysis"
+                    hashtags={["PowerBI","DAX", "DataTransform","DataViz", "AnalyticalReport"]} 
+                    />
+                  </div>
+
                   <div className="col-span-6 sm:col-span-12">
                   <Project 
                     title="Springfield's IPV crimes analysis"
@@ -179,28 +202,6 @@ const projects = () => {
                     github="https://github.com/davidhuynhgit/LargeTextClassification"
                     type="Data Analysis"
                     hashtags={["Weka","Java", "Classification","FeatureSelection","TF-IDF"]} 
-                    />
-                  </div>
-
-                  <div className="col-span-6 sm:col-span-12">
-                  <Project 
-                    title="Furniture Sale Analysis by SQL"
-                    img={projectFurnitureSale}                            
-                    link="https://github.com/davidhuynhgit/FunitureSale"
-                    github="https://github.com/davidhuynhgit/FunitureSale"
-                    type="Data Analysis"
-                    hashtags={["SQL","MS SQL Server", "PivotTable","Dynamic SQL", "Function", "Procedure"]} 
-                    />
-                  </div>
-
-                  <div className="col-span-6 sm:col-span-12">
-                  <Project 
-                    title="Pizza Sale Dashboard with PowerBI"
-                    img={projectPizzaSale}                            
-                    link="https://github.com/davidhuynhgit/PizzaSale"
-                    github="https://github.com/davidhuynhgit/PizzaSale"
-                    type="Data Analysis"
-                    hashtags={["PowerBI","DAX", "DataTransform","DataViz", "AnalyticalReport"]} 
                     />
                   </div>
 
