@@ -9,7 +9,7 @@ import iHamon from "../../public/images/milestones/Hamon.png"
 import iBANDS from "../../public/images/milestones/QUTBANDS.png"
 import iTED from "../../public/images/milestones/TEDxQUT.png"
 import iLHP from "../../public/images/milestones/LHP.png"
-import iSpringer from "../../public/images/milestones/Springer.png"
+// import iSpringer from "../../public/images/milestones/Springer.png"
 
 const Details = ({ logo, title, time, place, info }) => {
     const ref = useRef(null);
@@ -75,7 +75,7 @@ const Details = ({ logo, title, time, place, info }) => {
                             info="Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine Learning Engineering."
                         />
                         <Details
-                            logo={iSpringer}
+                            logo={iBK}
                             title="Online Coursework"
                             time="2016-2020"
                             place="Coursera And EdX"
