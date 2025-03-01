@@ -9,7 +9,7 @@ import iHamon from "../../public/images/milestones/Hamon.png"
 import iBANDS from "../../public/images/milestones/QUTBANDS.png"
 import iTED from "../../public/images/milestones/TEDxQUT.png"
 import iLHP from "../../public/images/milestones/LHP.png"
-import iSpringer from "../../public/images/milestones/Springer.png"
+// import iSpringer from "../../public/images/milestones/Springer.png"
 
 const Details = ({ logo, title, time, place, info }) => {
     const ref = useRef(null);
