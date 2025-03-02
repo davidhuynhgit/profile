@@ -68,53 +68,53 @@ const Details = ({ logo, title, time, place, info, link }) => {
                             border-l-4 border-primary dark:border-primaryDark border-dashed 
                             left-[calc(20%+50px)] 
                             xl:left-[calc(10%+50px)]
-                            xs:-left-[20px]"
+                            xs:-left-[20px] xs:top-2 cs:h-[calc(100%-0.5rem)"
                         />
 
                         <Details
                             logo={iQUT}
-                            title="Involvement in a Complex National Energy Project"
-                            time="2021"
-                            place="Hamon Vietnam"
-                            info="Gained significant experience in Instrument & Control (I&C) through direct collaboration with seasoned professionals. 
-                            This exceptional opportunity allowed me to expand my knowledge base and learn from international colleagues with extensive field experience."                   
+                            title="First IT Casual Job - Pure Joy!"
+                            time="2024"
+                            place="QUT Digital Business Solutions"
+                            info="Developed real-world expertise by working with professionals on university IT systems. 
+                            This allowed me to apply my skills and contribute to essential infrastructure."                   
                         />
 
                         <Details
                             logo={iTED}
-                            title="Involvement in a Complex National Energy Project"
-                            time="2021"
-                            place="Hamon Vietnam"
-                            info="Gained significant experience in Instrument & Control (I&C) through direct collaboration with seasoned professionals. 
-                            This exceptional opportunity allowed me to expand my knowledge base and learn from international colleagues with extensive field experience."
+                            title="Logo design winner? That's unexpected!"
+                            time="2024"
+                            place="TEDxQUT"
+                            info="A truly unexpected and exhilarating achievement.
+                            This experience validated my creative vision and demonstrated my ability to translate ideas into impactful visual communication."
                             link={'https://youtu.be/hcreQBLOU6E?t=1002'}         
                         />
 
                         <Details
                             logo={iConnect}
-                            title="Involvement in a Complex National Energy Project"
-                            time="2021"
-                            place="Hamon Vietnam"
-                            info="Gained significant experience in Instrument & Control (I&C) through direct collaboration with seasoned professionals. 
-                            This exceptional opportunity allowed me to expand my knowledge base and learn from international colleagues with extensive field experience."                   
+                            title="First Job on Campus, why not?"
+                            time="2024"
+                            place="QUT HiQ Service Points & Future Students"
+                            info="Conducting QUT Connect volunteer recruitment interviews honed my interpersonal and evaluation skills. 
+                            I gained valuable experience in assessing potential and building confidence in my own judgment."                   
                         />
 
                         <Details
                             logo={iBANDS}
-                            title="Involvement in a Complex National Energy Project"
-                            time="2021"
-                            place="Hamon Vietnam"
-                            info="Gained significant experience in Instrument & Control (I&C) through direct collaboration with seasoned professionals. 
-                            This exceptional opportunity allowed me to expand my knowledge base and learn from international colleagues with extensive field experience."                   
+                            title="Event Coordinator of a uni club"
+                            time="2024"
+                            place="QUT Business Analysis and Data Science Club"
+                            info="Fostered community and enhancing members' knowledge. Developed strong leadership and organizational 
+                            skills, collaborating with diverse teams to create engaging experiences"                   
                         />
 
                         <Details
                             logo={iQUT}
-                            title="Involvement in a Complex National Energy Project"
-                            time="2021"
-                            place="Hamon Vietnam"
-                            info="Gained significant experience in Instrument & Control (I&C) through direct collaboration with seasoned professionals. 
-                            This exceptional opportunity allowed me to expand my knowledge base and learn from international colleagues with extensive field experience."                   
+                            title="Decision Made! The Adventure Begins"
+                            time="2023"
+                            place="Queensland University of Technology"
+                            info="Transitioned into IT, embracing the challenge of a new field and the excitement of continuous learning.
+                            Broke through previous limitations, diving into the dynamic world of IT with a global perspective."                   
                         />
 
                         <Details
