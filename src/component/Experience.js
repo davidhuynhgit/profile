@@ -20,7 +20,7 @@ const Details = ({position, company, companyLink, time, address, work}) => {
             className='text-primary dark:text-primaryDark'>
             <span className="block">@{company}</span>
             </a></h3>
-            <span className='capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'>
+            <span className='my-2 capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'>
                 {time} | {address}
             </span>
             <p className='font-medium w-full md:text-sm'> 
