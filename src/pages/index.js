@@ -25,14 +25,15 @@ export default function Home() {
         <Layout className='py-0 md:pt-16 sm:pt-8'>
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className='w-1/3 justify-items-center sm:w-full'>
-              <div className="rounded-2xl bg-light"/>
+              <div className="rounded-2xl bg-light w-2/3">
               <Image
                 src={profilePic}
                 alt="David"
-                className="w-2/3 h-auto rounded-2xl z-1 bg-radial"
+                className="h-auto rounded-2xl z-1 bg-radial"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
+                 </div>
             </div>
 
           
