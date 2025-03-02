@@ -35,7 +35,7 @@ const Details = ({ logo, title, time, place, info, link }) => {
                     <h3 className='capitalize font-bold text-2xl sm:text-xl xs:text-lg'>
                         {title}
                     </h3>
-                    <span className='capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'>
+                    <span className='py-2 capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'>
                         {time} {place && `| ${place}`}
                     </span>
                     <p className='font-medium w-full md:text-sm break-words hyphens-auto'>
@@ -65,7 +65,7 @@ const Details = ({ logo, title, time, place, info, link }) => {
 
                         <div
                             className="absolute top-6 w-[4px]  h-[calc(100%-1.5rem)] origin-top
-                            border-l-4 border-primary dark:border-primaryDark border-dashed 
+                            border-l-4 border-primary dark:border-primaryDark
                             left-[calc(20%+50px)] 
                             xl:left-[calc(10%+50px)]
                             xs:-left-[20px] xs:top-2 cs:h-[calc(100%-0.5rem)"

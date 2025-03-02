@@ -22,20 +22,27 @@ export default function Home() {
       </Head>
       <TransitionEffect/>
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light'>
-        <Layout className='pt-0 md:pt-16 sm:pt-8'>
+        <Layout className='py-0 md:pt-16 sm:pt-8'>
           <div className="flex items-center justify-between w-full lg:flex-col">
-            <div className='w-1/2 md:w-full'>
-              <Image src={profilePic} alt="David" className='w-1/2 h-auto md:inline-block md:w-full'
-              priority
-              sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw'/>
+            <div className='w-1/3 justify-items-center sm:w-full'>
+              <div className="rounded-2xl bg-light"/>
+              <Image
+                src={profilePic}
+                alt="David"
+                className="w-2/3 h-auto rounded-2xl z-1 bg-radial"
+                priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
             </div>
 
-            <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
-              <AnimatedText text="Unleash The Power Of Data To Drive Smart Decisions." className='!text-6xl !text-left
+          
+
+            <div className='p-4 w-2/3 flex flex-col items-center self-center lg:w-full lg:text-center'>
+              <AnimatedText text="Unleash The Power Of Data To Drive Smart Decisions" className='!text-6xl !text-left
               xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'/>            
-              <p className='my-4 text-base font-medium text-justify break-words hyphens-auto'>
-              Hello! I am David Huynh. As a passionate data analyst/engineer with an automation engineering background, I specialize in extracting meaningful insights through data mining, machine learning, and advanced analytics. 
-              Explore my latest projects, where I blend programming expertise with analytical precision to solve complex problems.
+              <p className='my-6 text-base font-medium text-justify break-words hyphens-auto'>
+              Hello! I am David Huynh. As a passionate data analyst/ engineer with an automation engineering background, I specialize in extracting meaningful insights through data mining, machine learning, and advanced analytics. 
+              Explore my latest projects, where I blend programming expertise with analytical skills to solve complex problems.
               </p>
 
               <div className='flex items-center self-start mt-2 lg:self-center'>

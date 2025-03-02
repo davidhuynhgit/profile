@@ -20,7 +20,7 @@ const Details = ({position, company, companyLink, time, address, work}) => {
             className='text-primary dark:text-primaryDark'>
             <span className="block">@{company}</span>
             </a></h3>
-            <span className='my-2 capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'>
+            <span className='py-2 capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'>
                 {time} | {address}
             </span>
             <p className='font-medium w-full md:text-sm'> 
@@ -58,7 +58,7 @@ const Experience = () => {
                     position="Assistant Technology Support Officer"
                     company="Queensland University of Technology (QUT)"
                     time="2024"
-                    address="88 Musk Avenue, Kelvin Grove Qld 4059"
+                    address="Brisbane, Queensland"
                     work="Worked on a team responsible for integrating desktop computing with research instrumentation, 
                     deploying and supporting software and hardware in specialized labs, 
                     and troubleshooting issues across the campus."
@@ -68,7 +68,7 @@ const Experience = () => {
                     position="Automation Engineer"
                     company="SISTECH Co., Ltd"
                     time="2020-2023"
-                    address="55/14 Le Thi Hong Gam, Nguyen Thai Binh Ward, District 1, HCMC, Vietnam"
+                    address="HCMC, Vietnam"
                     work="contributed to several projects, including upgrading outdated systems, troubleshooting and resolving 
                     device malfunctions, and commissioning and controlling various instruments and subsystems to enhance overall operational efficiency."
             />
@@ -76,7 +76,7 @@ const Experience = () => {
                     position="Automation Engineer (Intern)"
                     company="SISTECH Co., Ltd"
                     time="2018"
-                    address="55/14 Le Thi Hong Gam, Nguyen Thai Binh Ward, District 1, HCMC, Vietnam"
+                    address="HCMC, Vietnam"
                     work="Led a team of interns focused on software analysis and process evaluation to 
                     complete a project automating a manufacturing process, improving efficiency and streamlining operations."
             />
