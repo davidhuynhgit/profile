@@ -73,11 +73,11 @@ const Details = ({ logo, title, time, place, info, link }) => {
 
                         <Details
                             logo={iQUT}
-                            title="First IT Casual Job - Pure Joy!"
+                            title="First IT Job - Pure Joy!"
                             time="2024"
                             place="QUT Digital Business Solutions"
                             info="Developed real-world expertise by working with professionals on university IT systems. 
-                            This allowed me to apply my skills and contribute to essential infrastructure."                   
+                            This allowed me to apply my skills and contribute to essential infrastructure, as a Technology Support Officer."                   
                         />
 
                         <Details
@@ -153,7 +153,7 @@ const Details = ({ logo, title, time, place, info, link }) => {
                             place="Ho Chi Minh City University of Technology (HCMUT)"
                             info="Completed Bachelor's and Master's degrees in Control and Automation, establishing a strong technical foundation.
                             They provided me with a rigorous academic experience, cultivating analytical skills and a disciplined approach.
-                            These qualities remain central to my professional and personal growth."
+                            "
                         />
                         
                         <Details
