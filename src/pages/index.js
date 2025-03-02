@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Layout from '@/component/Layout'
-import profilePic from "../../public/images/profile/IndexPhoto.png"
+import profilePic from "../../public/images/profile/BR_Photo.png"
 import QRPic from "../../public/images/profile/QR.png"
 import AnimatedText from '@/component/AnimatedText'
 import Link from 'next/link'
@@ -33,7 +33,7 @@ export default function Home() {
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
               <AnimatedText text="Unleash The Power Of Data To Drive Smart Decisions." className='!text-6xl !text-left
               xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'/>            
-              <p className='my-4 text-base font-medium'>
+              <p className='my-4 text-base font-medium text-justify'>
               Hello! I am David Huynh. As a passionate data analyst/engineer with an automation engineering background, I specialize in extracting meaningful insights through data mining, machine learning, and advanced analytics. 
               Explore my latest projects, where I blend programming expertise with analytical precision to solve complex problems.
               </p>

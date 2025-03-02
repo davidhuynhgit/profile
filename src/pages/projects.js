@@ -130,7 +130,7 @@ const projects = () => {
                     img={fproject}
                     summary="A story reporting on the success of the program initiated by the Queensland's Government.
                      The results are potentially critical to the scheme, based on the publicly available data on the distribution of the funds over time. 
-                     It is expected that by using JupyterNotebook/Python and Guadian API with structured and unstructured data analysis under QDAVI framework,
+                     It is expected that by using JupyterNotebook/Python and Guardian API with structured and unstructured data analysis under QDAVI framework,
                      the patterns or concerns can offer meaningful insights."                    
                     link="https://github.com/davidhuynhgit/AdvanceQLD"
                     github="https://github.com/davidhuynhgit/AdvanceQLD"
