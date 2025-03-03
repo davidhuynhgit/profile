@@ -23,8 +23,8 @@ export default function Home() {
       <TransitionEffect/>
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light'>
         <Layout className='py-0 md:pt-16 sm:pt-8'>
-          <div className="flex items-center justify-between w-full lg:flex-col">
-            <div className='w-1/3 justify-items-center sm:w-full'>
+          <div className="flex items-center justify-between mx-auto w-full lg:flex-col">
+            <div className='w-1/3 justify-items-center mx-auto sm:w-full'>
               <div className="rounded-2xl bg-light w-2/3">
               <Image
                 src={profilePic}
