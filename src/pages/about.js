@@ -49,9 +49,9 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I&apos;m David, a data scientist with a passion for transforming 
+                Hi, I&apos;m David, a Data Analyst with a passion for transforming 
                 data into actionable insights and innovative solutions.
-                I transitioned into the data science field, where I specialize in data analysis, 
+                I transitioned into the data field, where I specialize in data analysis, 
                 machine learning, and predictive modeling. I am committed to solving complex problems 
                 and turning data into valuable insights that drive smarter decision-making.
               </p>

@@ -42,7 +42,7 @@ export default function Home() {
               <AnimatedText text="Unleash The Power Of Data To Drive Smart Decisions" className='!text-6xl !text-left
               xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'/>            
               <p className='my-6 text-base font-medium text-justify break-words hyphens-auto'>
-              Hello! I am David Huynh. As a passionate Data Analyst with an automation engineering background, I specialize in extracting meaningful insights through data mining, machine learning, and advanced analytics. 
+              Hello! I am David Huynh. As a passionate Data Analyst with a strong engineering background, I specialize in extracting meaningful insights through data mining, machine learning, and advanced analytics. 
               Explore my latest projects, where I blend programming expertise with analytical skills to solve complex problems.
               </p>
 
