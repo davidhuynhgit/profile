@@ -12,6 +12,7 @@ import projectBellabeat from "../../public/images/projects/BellaBeat.png";
 import projectTextClassification from "../../public/images/projects/TextClassification.png";
 import projectFurnitureSale from "../../public/images/projects/FurnitureSale.png";
 import projectPizzaSale from "../../public/images/projects/PizzaSale.png";
+import projectHER from "../../public/images/projects/VisitOverview.PNG";
 import {motion} from "framer-motion"
 import TransitionEffect from '@/component/TransitionEffect'
 const FramerImage = motion(Image);
@@ -142,7 +143,7 @@ const projects = () => {
                   <div className="col-span-6 sm:col-span-12">
                   <Project 
                     title="Hospital Emergency Room Analysis with PowerBI"
-                    img={projectPizzaSale}                            
+                    img={projectHER}                            
                     link="https://app.powerbi.com/view?r=eyJrIjoiNGUxOWYzZjQtNWM1YS00ODBjLTg0YWQtZjBiOGViNTYwYzA4IiwidCI6IjFjYTRjNDdkLTU4ODEtNDE3Zi1iY2U0LTY2ZDNhMDZlMzk0MSJ9"
                     github="https://github.com/davidhuynhgit/PowerBI_HospitalER"
                     type="Data Analysis"
