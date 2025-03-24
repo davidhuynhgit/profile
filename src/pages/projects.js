@@ -141,6 +141,17 @@ const projects = () => {
 
                   <div className="col-span-6 sm:col-span-12">
                   <Project 
+                    title="Hospital Emergency Room Analysis with PowerBI"
+                    img={projectPizzaSale}                            
+                    link="https://app.powerbi.com/view?r=eyJrIjoiNGUxOWYzZjQtNWM1YS00ODBjLTg0YWQtZjBiOGViNTYwYzA4IiwidCI6IjFjYTRjNDdkLTU4ODEtNDE3Zi1iY2U0LTY2ZDNhMDZlMzk0MSJ9"
+                    github="https://github.com/davidhuynhgit/PowerBI_HospitalER"
+                    type="Data Analysis"
+                    hashtags={["PowerBI","PowerQuery","DAX", "DataViz", "CustomedChart","ColorTheme"]} 
+                    />
+                  </div>
+
+                  <div className="col-span-6 sm:col-span-12">
+                  <Project 
                     title="Furniture Sale Analysis by SQL"
                     img={projectFurnitureSale}                            
                     link="https://github.com/davidhuynhgit/FunitureSale"
