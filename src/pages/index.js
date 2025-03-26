@@ -65,8 +65,8 @@ export default function Home() {
                 >Contact</Link>              
               </div>
 
-              <div className='w-full justify-items-end 
-              lg:justify-items-center lg:mt-6 '>
+              <div className='w-full hidden pt-10
+              xs:flex xs:justify-center'>
                 <div className='flex flex-col items-center'>
                   <Image 
                     src={QRPic} 
