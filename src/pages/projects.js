@@ -173,7 +173,7 @@ const projects = () => {
                     />
                   </div>
 
-                  <div className="col-span-6 sm:col-span-12">
+                  {/* <div className="col-span-6 sm:col-span-12">
                   <Project 
                     title="Springfield's IPV crimes analysis"
                     img={projectSpringfield}                            
@@ -182,9 +182,9 @@ const projects = () => {
                     type="Data Analysis"
                     hashtags={["Tableau", "Dashboard","IterativeDesign","StoryTelling"]} 
                     />
-                  </div>
+                  </div> */}
                   
-                  <div className="col-span-6 sm:col-span-12">
+                  {/* <div className="col-span-6 sm:col-span-12">
                   <Project 
                     title="Automated Fungi Classification"
                     img={projectFungi}                            
@@ -193,7 +193,7 @@ const projects = () => {
                     type="Machine Learning"
                     hashtags={["PyTorch", "ImageClassification", "FoundationModel", "Evaluation","DeepLearning"]} 
                     />
-                  </div>
+                  </div> */}
 
                   <div className="col-span-6 sm:col-span-12">
                   <Project 
@@ -206,7 +206,7 @@ const projects = () => {
                     />
                   </div>
 
-                  <div className="col-span-6 sm:col-span-12">
+                  {/* <div className="col-span-6 sm:col-span-12">
                   <Project 
                     title="Large-scale documents classification"
                     img={projectTextClassification}                            
@@ -215,7 +215,7 @@ const projects = () => {
                     type="Data Analysis"
                     hashtags={["Weka","Java", "Classification","FeatureSelection","TF-IDF"]} 
                     />
-                  </div>
+                  </div> */}
 
                 </div>
                 
