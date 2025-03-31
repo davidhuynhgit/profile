@@ -144,7 +144,7 @@ const projects = () => {
                   <Project 
                     title="Hospital Emergency Room Analysis with PowerBI"
                     img={projectHER}                            
-                    link="https://app.powerbi.com/view?r=eyJrIjoiNGUxOWYzZjQtNWM1YS00ODBjLTg0YWQtZjBiOGViNTYwYzA4IiwidCI6IjFjYTRjNDdkLTU4ODEtNDE3Zi1iY2U0LTY2ZDNhMDZlMzk0MSJ9"
+                    link="https://app.powerbi.com/view?r=eyJrIjoiZWVhYTRkNTItZTI5OC00ZjNkLTg1MmItMzQyMGY1MTE3MDcxIiwidCI6IjFjYTRjNDdkLTU4ODEtNDE3Zi1iY2U0LTY2ZDNhMDZlMzk0MSJ9"
                     github="https://github.com/davidhuynhgit/PowerBI_HospitalER"
                     type="Data Analysis"
                     hashtags={["PowerBI","PowerQuery","DAX", "DataViz", "CustomedChart","ColorTheme"]} 
