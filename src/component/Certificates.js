@@ -1,30 +1,34 @@
 import React from 'react';
 import Image from 'next/image';
+import certAWSCloud from "../../public/images/cert/CertAWSCloud.PNG'"
+import certGGData from "../../public/images/cert/CertGoogleData.PNG'"
+import certTata from "../../public/images/cert/CertTata.PNG'"
+import certQuantium from "../../public/images/cert/CertQuantium.PNG'"
 
 const Certificates = () => {
   const certifications = [
     {
       description: 'Quantium - Data Analytics Job Simulation',
       platform: 'Forage',
-      image: '/images/cert/CertQuantium.PNG',
+      image: certQuantium,
       link: 'https://github.com/davidhuynhgit/Certificates/blob/main/ForageQuantium_Certificate.pdf',
     },
     {
       description: 'Tata Group - Data Visualisation: Empowering Business with Effective Insights Job Simulation',
       platform: 'Forage',
-      image: '/images/cert/CertTata.PNG',
+      image: certTata,
       link: 'https://github.com/davidhuynhgit/Certificates/blob/main/ForageTata_Certificate.pdf',
     },
     {
       description: 'Google Data Analytics',
       platform: 'Coursera x ACS Scholarship',
-      image: '/images/cert/CertGoogleData.PNG',
+      image: certGGData,
       link: 'https://github.com/davidhuynhgit/Certificates/blob/main/Google%20Data%20Analytics_Certificate.pdf',
     },
     {
       description: 'AWS Cloud Practitioner Essentials',
       platform: 'AWS Skill Builder',
-      image: '/images/cert/CertAWSCloud.PNG',
+      image: certAWSCloud,
       link: 'https://github.com/davidhuynhgit/Certificates/blob/main/AWS%20Course%20Completion%20Certificate.pdf',
     },
   ];
