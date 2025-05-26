@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
-import certAWSCloud from "../../public/images/cert/CertAWSCloud.PNG'"
-import certGGData from "../../public/images/cert/CertGoogleData.PNG'"
-import certTata from "../../public/images/cert/CertTata.PNG'"
-import certQuantium from "../../public/images/cert/CertQuantium.PNG'"
+import certAWSCloud from "../../public/images/cert/CertAWSCloud.PNG"
+import certGGData from "../../public/images/cert/CertGoogleData.PNG"
+import certTata from "../../public/images/cert/CertTata.PNG"
+import certQuantium from "../../public/images/cert/CertQuantium.PNG"
 
 const Certificates = () => {
   const certifications = [
