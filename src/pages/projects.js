@@ -13,6 +13,8 @@ import projectTextClassification from "../../public/images/projects/TextClassifi
 import projectFurnitureSale from "../../public/images/projects/FurnitureSale.png";
 import projectPizzaSale from "../../public/images/projects/PizzaSale.png";
 import projectHER from "../../public/images/projects/VisitOverview.PNG";
+import projectBCC_LMS from "../../public/images/projects/CollectionAnalysis.PNG";
+
 import {motion} from "framer-motion"
 import TransitionEffect from '@/component/TransitionEffect'
 const FramerImage = motion(Image);
@@ -137,6 +139,17 @@ const projects = () => {
                     github="https://github.com/davidhuynhgit/AdvanceQLD"
                     type="Featured Project"
                     hashtags={["Narrative", "Python","API","UnstructuredData", "NMF", "LDA", "QDAVI", "DataViz"]}           
+                    />
+                  </div>
+
+                  <div className="col-span-6 sm:col-span-12">
+                  <Project 
+                    title="Brisbane City Council Library Management System"
+                    img={projectBCC_LMS}                            
+                    link="https://app.powerbi.com/view?r=eyJrIjoiY2RkYjk4MWUtM2NlOS00NGM5LWE0MTktNWE4OTBkNjlhMjhiIiwidCI6IjFjYTRjNDdkLTU4ODEtNDE3Zi1iY2U0LTY2ZDNhMDZlMzk0MSJ9"
+                    github="https://github.com/davidhuynhgit/BCC_LMS"
+                    type="Data Analysis"
+                    hashtags={["SQL","PowerBI","PowerQuery","DAX", "DataViz", "Real-worldData","BigData"]} 
                     />
                   </div>
 
