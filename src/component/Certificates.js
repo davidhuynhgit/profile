@@ -3,10 +3,17 @@ import Image from 'next/image';
 import certAWSCloud from "../../public/images/cert/CertAWSCloud.PNG"
 import certGGData from "../../public/images/cert/CertGoogleData.PNG"
 import certTata from "../../public/images/cert/CertTata.PNG"
+import certTataAI from "../../public/images/cert/CertTataAI.PNG"
 import certQuantium from "../../public/images/cert/CertQuantium.PNG"
 
 const Certificates = () => {
   const certifications = [
+    {
+      description: 'Tata Group - GenAI Powered Data Analytics Job Simulation',
+      platform: 'Forage',
+      image: certTataAI,
+      link: 'https://github.com/davidhuynhgit/Certificates/blob/main/ForageTataAI_Certificate.pdf',
+    },
     {
       description: 'Quantium - Data Analytics Job Simulation',
       platform: 'Forage',
