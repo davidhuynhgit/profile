@@ -14,6 +14,7 @@ import projectFurnitureSale from "../../public/images/projects/FurnitureSale.png
 import projectPizzaSale from "../../public/images/projects/PizzaSale.png";
 import projectHER from "../../public/images/projects/VisitOverview.PNG";
 import projectBCC_LMS from "../../public/images/projects/CollectionAnalysis.PNG";
+import MovieLens from "../../public/images/projects/MovieLens.png";
 
 import {motion} from "framer-motion"
 import TransitionEffect from '@/component/TransitionEffect'
@@ -139,6 +140,17 @@ const projects = () => {
                     github="https://github.com/davidhuynhgit/AdvanceQLD"
                     type="Featured Project"
                     hashtags={["Narrative", "Python","API","UnstructuredData", "NMF", "LDA", "QDAVI", "DataViz"]}           
+                    />
+                  </div>
+
+                  <div className="col-span-6 sm:col-span-12">
+                  <Project 
+                    title="MovieLens Ratings Intelligence"
+                    img={projectBCC_LMS}                            
+                    link="https://app.powerbi.com/view?r=eyJrIjoiMzFlZmE5ZTItNWE1Zi00OWIyLWFlMDktZWQ3NzVjNTQ2OGIwIiwidCI6IjFjYTRjNDdkLTU4ODEtNDE3Zi1iY2U0LTY2ZDNhMDZlMzk0MSJ9"
+                    github="https://github.com/davidhuynhgit/MovieLens"
+                    type="Data Analysis/Engineering"
+                    hashtags={["dbt","AWS", "Snowflake","SQL","PowerBI","DataWarehouse","Infrastrucure", "DataPipeline","CloudSolution"]} 
                     />
                   </div>
 
