@@ -5,9 +5,16 @@ import certGGData from "../../public/images/cert/CertGoogleData.PNG"
 import certTata from "../../public/images/cert/CertTata.PNG"
 import certTataAI from "../../public/images/cert/CertTataAI.PNG"
 import certQuantium from "../../public/images/cert/CertQuantium.PNG"
+import certdbt from "../../public/images/cert/CertdbtFundamentals.png"
 
 const Certificates = () => {
   const certifications = [
+    {
+      description: 'Databricks Fundamentals Accreditation',
+      platform: 'Databricks Academy',
+      image: certdbt,
+      link: 'https://github.com/davidhuynhgit/Certificates/blob/main/Databricks%20Fundamentals%20Accreditation.pdf',
+    },
     {
       description: 'Tata Group - GenAI Powered Data Analytics Job Simulation',
       platform: 'Forage',
