@@ -40,9 +40,9 @@ const Education = () => {
   return (
 
     <div className='my-16'>
-        <h2 className='font-bold text-8xl mb-16 w-full text-center
-        md:text-6xl xs:text-4xl md:mb-8
-        '>Education</h2>
+        <h2 className='font-bold text-6xl mb-16 w-full text-center
+         xs:text-4xl md:mb-16'>
+            Education</h2>
         
 
         <div ref={ref} className='w-[75%] mx-auto relative  lg:w-[90%] md:w-full'>

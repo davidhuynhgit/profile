@@ -47,7 +47,7 @@ const Skills = () => {
 
   return (
     <>
-      <h2 className='font-bold text-8xl mt-32 w-full text-center md:text-6xl md:mt-16 mb-16'>Skills</h2>
+      <h3 className='font-bold text-6xl mt-16 w-full text-center md:text-6xl md:mt-16 mb-16'>Skills</h3>
       {skillSets.map((skillSet, index) => (
         <SkillSet key={index} skills={skillSet.skills} bgColor={skillSet.bgColor} />
       ))}
