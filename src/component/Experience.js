@@ -52,16 +52,24 @@ const Experience = () => {
         style={{scaleY: scrollYProgress}}
         className="absolute left-9 top-1 w-[4px] h-full bg-dark dark:bg-light origin-top
         md:w-[2px] md:left-[30px] xs:left-[20px]"/>
-            
+           
             <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+            <Details
+                    position="Senior Technician, Specialist Client Technology"
+                    company="Queensland University of Technology (QUT)"
+                    time="2025-Present"
+                    address="Brisbane, Queensland"
+                    work="Offered IT support across teaching and learning environments, managing computer systems, and contributing to major projects that provide data-informed business solutions for staff and researchers.
+                    Responsible for hardware/software deployment, lab instrumentation support, and optimizing systems to ensure smooth workflows and reliability."
+            />
+
             <Details
                     position="Assistant Technology Support Officer"
                     company="Queensland University of Technology (QUT)"
                     time="2024"
                     address="Brisbane, Queensland"
-                    work="Worked on a team responsible for integrating desktop computing with research instrumentation, 
-                    deploying and supporting software and hardware in specialized labs, 
-                    and troubleshooting issues across the campus."
+                    work="Supported the team by assisting senior technicians, following their guidance to learn technical workflows, 
+                    and helping with device integration and lab instrumentation support. Focused on gaining hands-on experience in hardware/software deployment and troubleshooting."
             />
 
             <Details
