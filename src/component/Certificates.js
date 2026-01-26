@@ -6,9 +6,16 @@ import certTata from "../../public/images/cert/CertTata.PNG"
 import certTataAI from "../../public/images/cert/CertTataAI.PNG"
 import certQuantium from "../../public/images/cert/CertQuantium.PNG"
 import certdbt from "../../public/images/cert/CertdbtFundamentals.png"
+import certAstronomer from "../../public/images/cert/CertAstronomer.png"
 
 const Certificates = () => {
   const certifications = [
+    {
+      description: 'Data Engineering Foundations Professional Certificate by Astronomer',
+      platform: 'LinkedIn Learning',
+      image: certAstronomer,
+      link: 'https://github.com/davidhuynhgit/Certificates/blob/main/Data%20Engineering%20Foundations%20by%20Astronomer%20Certificate.pdf',
+    },
     {
       description: 'Databricks Fundamentals Accreditation',
       platform: 'Databricks Academy',
